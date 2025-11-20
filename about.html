@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Moonkey Collection</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <div class="logo">Moonkey Collection</div>
+
+    <div class="menu-toggle">☰</div>
+
+    <ul class="nav-links">
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="about.html" class="active">About Us</a></li>
+      <li><a href="shopnow.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+  <section class="about">
+    <h2>About Moonkey Collection</h2>
+    <p>Moonkey Collection is your trusted store for affordable, quality, and trendy items ranging from kitchenware to children’s wears and more. Our goal is to make shopping easy, fun, and accessible for everyone.</p>
+    <p>We take pride in offering carefully selected products to ensure quality and satisfaction. Whether you're looking for stylish shoes, durable cookware, or cozy bedsheets, we’ve got you covered.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Moonkey Collection. All rights reserved.</p>
+  </footer>
+  <script>
+    
+  const toggleBtn = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  toggleBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+
+</body>
+</html>

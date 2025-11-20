@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moonkey Collection | Home</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+ <header>
+  <div class="navbar">
+    <div class="logo">Moonkey Collection</div>
+
+    <div class="menu-toggle">☰</div>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html" >About Us</a></li>
+      <li><a href="shopnow.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to Moonkey Collection</h2>
+      <p>Your one-stop shop for kitchenware, children wears, shoes, bags, bedsheets, and more.</p>
+      <a href="shopnow.html" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Products Preview -->
+  <section id="products" class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product"><img src="Images/IMAGE1 (1).jpg" alt=""><h3>Masa Pan</h3></div>
+      <div class="product"><img src="Images/IMAGE1 (3).jpg" alt=""><h3>Cooking Pots</h3></div>
+      <div class="product"><img src="Images/IMAGE1 (7).jpg" alt=""><h3>Snickers Shoe</h3></div>
+      <div class="product"><img src="Images/IMAGE1 (6).jpg" alt=""><h3>Food Flask</h3></div>
+    </div>
+    <a href="shopnow.html" class="btn">View More</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Moonkey Collection. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+  const toggleBtn = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  toggleBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+
+</body>
+</html>
